@@ -1,0 +1,79 @@
+body {
+	background-color: lightgrey;
+	font-family: helvetica, arial, sans serif;
+}
+
+h3 {
+	color: red;
+}
+
+h6 {
+	color: green;
+}
+
+#container{
+	background-color: yellow;
+	color: blue;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#header {
+	background-color: turquoise;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+#content {
+	padding: 10px;
+}
+
+#nav {
+	width: 180px;
+	float: left;
+}
+
+#main {
+	width: 600px;
+	float: right;
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: grey;
+	color: white;
+	text-align: right;
+}
+
+form {
+	margin-top: 50px;
+	color: black;
+}
+
+.form-control
+{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid blue;
+	color: indigo;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+form .submit
+{
+	background: orangered;
+	border-color: transparent;
+	color: grey;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	height: 30px;
+	margin-top: 10px;
+}
